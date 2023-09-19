@@ -3,7 +3,7 @@
 // import './index.css'
 // createApp(App).mount('#app')
 
-
+import './index.css'
 import { defineCustomElement } from 'vue';
 import HelloWorld from './components/HelloWorld.vue';
 
