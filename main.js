@@ -7,6 +7,6 @@
 import { defineCustomElement } from 'vue';
 import HelloWorld from './src/components/HelloWorld';
 
-const HelloWorld = defineCustomElement(HelloWorld);
+const HelloWorldEl = defineCustomElement(HelloWorld);
 
-customElements.define('hello-world', HelloWorld);
+customElements.define('hello-world', HelloWorldEl);
