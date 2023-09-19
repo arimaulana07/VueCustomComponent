@@ -5,8 +5,10 @@
 
 import './index.css'
 import { defineCustomElement } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import HelloWorld from './components/HelloWorld.ce.vue';
 
-const HelloWorldEl = defineCustomElement(HelloWorld);
+const HelloWorldEl = defineCustomElement({
+  template: HelloWorld,
+});
 
 customElements.define('hello-world', HelloWorldEl);
