@@ -4,7 +4,7 @@
 // createApp(App).mount('#app')
 
 
-import { defineCustomElement } from 'vue';
+import { defineCustomElement } from './vue';
 import HelloWorld from './src/components/HelloWorld';
 
 const HelloWorldEl = defineCustomElement(HelloWorld);
